@@ -19,8 +19,7 @@ $news = mysql_real_escape_string($_POST['news'],$dblink); //Fonction protection
 	else
 {
 // Sinon on affiche le formulaire
-/* Explication brève du formulaire : déclaration d'un formulaire avec la balise form,
-on renvoi la variable ok avec une valeur quelconque, ici 1 */
+
 ?>
 <form method="post" action="ajout_news.php?ok=1" name="form_news">
 Titre : <input name="titre" type="text" value="" />
